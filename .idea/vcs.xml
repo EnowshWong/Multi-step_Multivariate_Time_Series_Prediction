@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/kaggle-web-traffic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kaggleWebTrafiic" vcs="Git" />
+    <mapping directory="D:\PycharmProjects\TSP\AutoPyTorch" vcs="Git" />
+    <mapping directory="D:\PycharmProjects\TSP\Multivariate TSP with seq2seq" vcs="Git" />
+    <mapping directory="D:\PycharmProjects\TSP\SMAC3" vcs="Git" />
+    <mapping directory="D:\PycharmProjects\TSP\advisor" vcs="Git" />
+    <mapping directory="D:\PycharmProjects\TSP\kaggleWebTraffic" vcs="Git" />
+    <mapping directory="D:\PycharmProjects\TSP\optuna" vcs="Git" />
+  </component>
+</project>
