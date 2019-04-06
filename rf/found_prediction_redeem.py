@@ -3,7 +3,7 @@
 # @File  : found_prediction.py
 # @Author: Wong
 # @Date  : 2019/2/15
-# @Desc  : 预测2014年9月的申购量
+# @Desc  : 预测2014年9月的赎回量
 
 import numpy as np
 import pandas as pd
@@ -42,8 +42,9 @@ plt.plot(range(1,test.shape[0]+1),preds,'r*-')
 plt.title("comparison between the actual and the prediction")
 plt.ylabel("amount")
 plt.legend(['actual','prediction'])
-plt.show()
+plt.savefig('redeem')
+
 #绘制权重图
 plt.figure()
 plt.bar(features,clf.feature_importances_)
-plt.show()
+plt.savefig('weights_redeem')

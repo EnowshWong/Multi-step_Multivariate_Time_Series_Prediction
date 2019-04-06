@@ -44,9 +44,9 @@ plt.plot(range(1,test.shape[0]+1),preds,'r*-')
 plt.title("comparison between the actual and the prediction")
 plt.ylabel("amount")
 plt.legend(['actual','prediction'])
-plt.show()
+plt.savefig('purchase')
 
 #绘制权重图
 plt.figure()
 plt.bar(features,clf.feature_importances_)
-plt.show()
+plt.savefig('purchase_weights')
