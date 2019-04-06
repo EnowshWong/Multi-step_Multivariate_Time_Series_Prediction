@@ -47,6 +47,7 @@ plt.plot(range(y_train.shape[0],y_train.shape[0] + test_output.shape[0]),y_test[
 plt.title('fitting result of purchase')
 plt.tight_layout()
 plt.legend()
+plt.savefig('fitting result of purchase')
 
 plt.subplot(312)
 plt.plot(y_train[:,1],label = 'train actual')
@@ -55,6 +56,7 @@ plt.plot(range(y_train.shape[0],y_train.shape[0] + test_output.shape[0]),y_test[
 plt.title('fitting result of redeem')
 plt.tight_layout()
 plt.legend()
+plt.savefig('fitting result of redeem')
 
 #plot history
 plt.subplot(313)
@@ -63,6 +65,7 @@ plt.plot(history.history['val_loss'],label = 'test loss')
 plt.title('loss')
 plt.tight_layout()
 plt.legend()
+plt.savefig('loss')
 
 # 评价指标
 mean_relative_error = 0.45 * np.mean(np.abs((test_output[:,0] - y_test[-seq_length:,0])) / y_test[-seq_length:,0]) + \

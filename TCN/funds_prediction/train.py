@@ -174,6 +174,7 @@ plt.plot(range(y_train.shape[0],y_train.shape[0] + test_output.shape[0]),y_test[
 plt.title('fitting result of purchase')
 plt.legend()
 plt.tight_layout()
+plt.savefig('fitting result of purchase')
 
 plt.subplot(312)
 plt.plot(y_train[:,1],color = 'black',label = 'train actual')
@@ -183,12 +184,14 @@ plt.plot(range(y_train.shape[0],y_train.shape[0] + test_output.shape[0]),y_test[
 plt.title('fitting result of redeem')
 plt.legend()
 plt.tight_layout()
+plt.savefig('fitting result of redeem')
 
 plt.subplot(313)
 plt.plot(test_loss,label = 'test loss')
 plt.title('loss')
 plt.legend()
 plt.tight_layout()
+plt.savefig('test loss')
 
 
 
